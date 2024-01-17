@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portefolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <nav>
+<div class="profil">
+<img src="images/logos13.png" alt="logo lettre NS" >
+<h1>SOUZA Nadège </h1>
+</div>
+<ul>
+    <li><a href="#">Accueil </a></li>
+    <li><a href="#lescompetence">Mes competence </a></li>
+    <li><a href="#lesprojet">Mes projets</a></li>
+    <li>Curriculum vitae</li>
+  
+</ul>
+    </nav>
+
+    <section class="contenu" >
+<header>
+    <h1>Bienvenue sur mon portefolio</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Quam quas recusandae cupiditate laborum sit. Officiis suscipit incidunt sed 
+    quam repellat molestias nesciunt consectetur! Numquam delectus earum facere eligendi, 
+    doloribus nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ad ullam, 
+    sint eos officia quaerat vel ea quod amet cupiditate repudiandae necessitatibus, beatae,
+     saepe dolorum assumenda tempora blanditiis praesentium molestiae.
+  </p>
+<button>Contactez-moi</button>
+</header>
+
+<section class="presentation-image">
+<img src="images/icone4.png" alt="image representent un écran d'ordinateur avec des balises html" >
+
+</section>
+
+<section class="section-competence">
+    <div id="lescompetence" class="encadre">
+        <h2 class="transform">Compétence</h2>
+        <p class="paragraphe">Passez avec la souris pour voir mon niveau</p>
+       <div class="background-1">
+<div class="front">
+    <div>
+    <h3>front-end</h3>
+    <ul class="ul">
+        <li class="comm">HTML <span class="aspect">intermédiaire</span> </li>
+        <li class="comm">CSS <span class="aspect">intermédiaire</span></li>
+        <li class="comm">Javascript <span class="aspect">débutant</span></li>
+    </ul>
+</div>
+</div>
+</div>
+
+<div class="background">
+    <div class="back">
+        <div>
+        <h3>Back-end</h3>
+        <ul>
+            <li class="comm">PHP <span class="aspect">débutant</span> </li>
+            <li class="comm">MYQsQL <span class="aspect">débutant</span></li>
+                 </ul>
+    </div>
+    </div>
+    </div>
+    
+    <div class="background">
+        <div class="back">
+            <div>
+            <h3>framework</h3>
+            <ul>
+                <li class="comm">codeigniter 4 <span class="aspect">débutant</span></li>
+                <li class="comm">Bootstrap <span class="aspect">débutant</span></li>
+                     </ul>
+        </div>
+        </div>
+        </div>
+    </section>
+    
+</div>
+
+<section>
+<div class="section-projets">
+    <h1>Projets réalisés</h1>
+    <div id="lesprojet" class="projets">
+        <div class="projet">
+            <h4 class="titre">site web CREA'S</h4>
+            <p class="description">site e-commerce de bijoux et porte clef fantaisie fait main</p>
+            <p class="dates">Dates: MARS 2022</p>
+            <div class="frame">
+                <p class="lienprojet"><a href="#"> Voir le projet</a></p>
+              </div>
+        </div>
+      
+        <div class="projet">
+            <h4 class="titre">Blog the witch</h4>
+            <p class="description">Ce site est un Blog sur le thème de la sorcellerie, qui informe sur les differents aspect de la sorcellerie </p>
+            <p class="dates">Dates: AOUT 2023</p>
+            <div class="frame">
+                <p class="lienprojet"><a href="#"> Voir le projet</a></p>
+              </div>
+        </div>
+        
+        </div>
+    </div>
+
+
+</section>
+
+
+</section>
+
+<main>
+<footer class="footers" style="margin-bottom: 50px;">
+
+    
+
+    <div class="colonne">
+        <h3> Me contacter par mail</h3>
+        <p>pour m'envoyer un mail :<a class="mail" href="mailto:nadege.souza@gmail.com">cliquez ici </a></p>
+        
+      
+    </div>
+    <div class="colonne">
+        <h3> me contacter par telephone : </h3>
+                       <script type="text/javascript">
+                /* Voici la fonction javascript qui change la propriété "display"
+                pour afficher ou non le div selon que ce soit "none" ou "block". */
+                 
+                function AfficherMasquer()
+                {
+                divInfo = document.getElementById('divacacher');
+                 
+                if (divInfo.style.display == 'none')
+                divInfo.style.display = 'block';
+                else
+                divInfo.style.display = 'none';
+                 
+                }
+                </script>
+    
+                <!-- /* La c'est le bouton qui va afficher le div en cliquant dessus. */ -->
+                <input class="bouton" type="button" value="afficher mon numéro de télephone" onClick="AfficherMasquer()" />
+                 
+                <!-- /* Ca c'est le div en question qui possède l'id indiqué dans
+                la fonction. */ -->
+                <div class="afficher" id="divacacher" style="display:none;">
+                07815826</div>
+      <br><br>
+    </div>
+    <div class="colonne">
+        <h3> mes reseaux </h3>
+          <img src="images\facebook.png"width="40px" alt="">
+          
+      
+    </div> 
+</footer>
+</main>
+</body>
+
+
+
+
+</html>
